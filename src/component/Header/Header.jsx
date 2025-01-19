@@ -9,8 +9,8 @@ const Header = () => {
       </div>
       <div className="flex space-x-4 text-xl gap-5">
         <a href="">Home</a>
-        <a href="">About</a>
         <a href="">Recipes</a>
+        <a href="">About</a>
         <a href="">Search</a>
       </div>
       <div className="flex items-center space-x-4">
@@ -29,5 +29,7 @@ const Header = () => {
     </nav>
   );
 };
+
+
 
 export default Header;
