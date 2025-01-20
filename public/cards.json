@@ -1,7 +1,7 @@
 [
     {
       "recipe_id": "1",
-      "recipe_image": "https://ibb.co.com/GdFcxZs",
+      "recipe_image": "https://github.com/alshahrear/cheaps-projects/blob/main/src/assets/images/Spaghetti%20Bolognese.jpg?raw=true",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with savory meat sauce.",
       "ingredients": [
@@ -15,83 +15,71 @@
     },
     {
       "recipe_id": "2",
-      "recipe_image": "image2.png",
+      "recipe_image": "https://github.com/alshahrear/cheaps-projects/blob/main/src/assets/images/Grilled%20Chicken%20Salad.jpg?raw=true",
       "recipe_name": "Grilled Chicken Salad",
       "short_description": "Healthy salad with grilled chicken and fresh vegetables.",
       "ingredients": [
         "200g chicken breast",
         "1 cup lettuce",
-        "1/2 cup cherry tomatoes",
-        "1/4 cup cucumbers",
-        "2 tbsp olive oil",
-        "1 tbsp lemon juice"
+        "1/2 cup cherry tomatoes"
       ],
-      "ingredients_length": 6,
+      "ingredients_length": 3,
       "preparing_time": "20 ",
       "calories": "400 "
     },
     {
       "recipe_id": "3",
-      "recipe_image": "image3.png",
+      "recipe_image": "https://github.com/alshahrear/cheaps-projects/blob/main/src/assets/images/Vegetable%20Stir%20Fry.jpg?raw=true",
       "recipe_name": "Vegetable Stir Fry",
       "short_description": "A quick and easy stir fry with fresh vegetables.",
       "ingredients": [
         "1 bell pepper, sliced",
         "1 cup broccoli florets",
-        "1 carrot, julienned",
-        "2 tbsp soy sauce",
-        "1 tbsp sesame oil"
+        "1 carrot, julienned"
       ],
-      "ingredients_length": 5,
+      "ingredients_length": 3,
       "preparing_time": "15 ",
       "calories": "250 "
     },
     {
       "recipe_id": "4",
-      "recipe_image": "image4.png",
+      "recipe_image": "https://github.com/alshahrear/cheaps-projects/blob/main/src/assets/images/Margherita%20Pizza.jpg?raw=true",
       "recipe_name": "Margherita Pizza",
       "short_description": "Classic Italian pizza with fresh basil and mozzarella.",
       "ingredients": [
         "1 pizza base",
         "100g mozzarella cheese",
-        "50g tomato sauce",
-        "5 fresh basil leaves"
+        "50g tomato sauce"
       ],
-      "ingredients_length": 4,
+      "ingredients_length": 3,
       "preparing_time": "25 ",
       "calories": "700 "
     },
     {
       "recipe_id": "5",
-      "recipe_image": "image5.png",
+      "recipe_image": "https://raw.githubusercontent.com/alshahrear/cheaps-projects/refs/heads/main/src/assets/images/Chocolate%20Brownies.jpg",
       "recipe_name": "Chocolate Brownies",
       "short_description": "Rich and fudgy brownies for dessert lovers.",
       "ingredients": [
         "200g dark chocolate",
         "150g butter",
-        "200g sugar",
-        "3 eggs",
-        "100g flour",
-        "1 tsp vanilla extract"
+        "200g sugar"
       ],
-      "ingredients_length": 6,
+      "ingredients_length": 3,
       "preparing_time": "35 ",
       "calories": "450 "
     },
     {
       "recipe_id": "6",
-      "recipe_image": "image6.png",
+      "recipe_image": "https://github.com/alshahrear/cheaps-projects/blob/main/src/assets/images/Pancakes.jpg?raw=true",
       "recipe_name": "Pancakes",
       "short_description": "Fluffy pancakes perfect for breakfast.",
       "ingredients": [
         "1 cup flour",
         "1 cup milk",
-        "1 egg",
-        "2 tbsp sugar",
-        "1 tsp baking powder",
-        "1/4 tsp salt"
+        "1 egg"
       ],
-      "ingredients_length": 6,
+      "ingredients_length": 3,
       "preparing_time": "20 ",
       "calories": "300 "
     }
