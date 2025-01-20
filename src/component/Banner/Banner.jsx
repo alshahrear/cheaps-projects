@@ -34,7 +34,7 @@ const Banner = () => {
       </div>
 
       {/* Recipes Section */}
-      <div className="mt-10 ml-16 mr-16 p-6 text-center bg-gray-100 rounded-2xl shadow-md">
+      <div className="mt-10 ml-16 mr-16 p-6 text-center rounded-2xl">
         <h2 className="text-3xl font-bold text-gray-800">Our Recipes</h2>
         <p className="mt-4 text-gray-600">
         Discover delicious recipes for every occasion. From breakfast pancakes to hearty lunches, creamy pasta, flavorful soups, grilled chicken, and sweet <br /> desserts, explore ideas to satisfy your taste buds with ease and creativity.

@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_image": "https://ibb.co.com/GdFcxZs",
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced"
+      ],
+      "ingredients_length": 3,
+      "preparing_time": "30 ",
+      "calories": "600 "
+    },
+    {
+      "recipe_id": "2",
+      "recipe_image": "image2.png",
+      "recipe_name": "Grilled Chicken Salad",
+      "short_description": "Healthy salad with grilled chicken and fresh vegetables.",
+      "ingredients": [
+        "200g chicken breast",
+        "1 cup lettuce",
+        "1/2 cup cherry tomatoes",
+        "1/4 cup cucumbers",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice"
+      ],
+      "ingredients_length": 6,
+      "preparing_time": "20 ",
+      "calories": "400 "
+    },
+    {
+      "recipe_id": "3",
+      "recipe_image": "image3.png",
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A quick and easy stir fry with fresh vegetables.",
+      "ingredients": [
+        "1 bell pepper, sliced",
+        "1 cup broccoli florets",
+        "1 carrot, julienned",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "ingredients_length": 5,
+      "preparing_time": "15 ",
+      "calories": "250 "
+    },
+    {
+      "recipe_id": "4",
+      "recipe_image": "image4.png",
+      "recipe_name": "Margherita Pizza",
+      "short_description": "Classic Italian pizza with fresh basil and mozzarella.",
+      "ingredients": [
+        "1 pizza base",
+        "100g mozzarella cheese",
+        "50g tomato sauce",
+        "5 fresh basil leaves"
+      ],
+      "ingredients_length": 4,
+      "preparing_time": "25 ",
+      "calories": "700 "
+    },
+    {
+      "recipe_id": "5",
+      "recipe_image": "image5.png",
+      "recipe_name": "Chocolate Brownies",
+      "short_description": "Rich and fudgy brownies for dessert lovers.",
+      "ingredients": [
+        "200g dark chocolate",
+        "150g butter",
+        "200g sugar",
+        "3 eggs",
+        "100g flour",
+        "1 tsp vanilla extract"
+      ],
+      "ingredients_length": 6,
+      "preparing_time": "35 ",
+      "calories": "450 "
+    },
+    {
+      "recipe_id": "6",
+      "recipe_image": "image6.png",
+      "recipe_name": "Pancakes",
+      "short_description": "Fluffy pancakes perfect for breakfast.",
+      "ingredients": [
+        "1 cup flour",
+        "1 cup milk",
+        "1 egg",
+        "2 tbsp sugar",
+        "1 tsp baking powder",
+        "1/4 tsp salt"
+      ],
+      "ingredients_length": 6,
+      "preparing_time": "20 ",
+      "calories": "300 "
+    }
+  ]
+  
