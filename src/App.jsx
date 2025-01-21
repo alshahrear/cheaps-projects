@@ -8,11 +8,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const [selectedRecipes, setSelectedRecipes] = useState([]); 
+  const [selectedRecipes, setSelectedRecipes] = useState([]);
 
-  const handleAddRecipes = (recipeId) => {
-    if (selectedRecipes.includes(recipeId)) {
-    
+  const handleAddRecipes = (recipeId, recipe) => {
+  
+    if (selectedRecipes.some(r => r.recipe_id === recipeId)) {
       toast.error("Already exists!", {
         position: "top-right",
         autoClose: 2000,
@@ -24,8 +24,8 @@ function App() {
         theme: "colored",
       });
     } else {
-     
-      setSelectedRecipes([...selectedRecipes, recipeId]);
+      
+      setSelectedRecipes([...selectedRecipes, recipe]);
     }
   };
 
@@ -33,9 +33,9 @@ function App() {
     <>
       <Header />
       <Banner />
-      <div className="flex mb-16">
-        <Cards handleAddRecipes={handleAddRecipes} />
-        <Cook addRecipes={selectedRecipes.length} />
+      <div className="flex mb-16 ">
+        <div className='pr-12  '><Cards handleAddRecipes={handleAddRecipes} /></div>
+        <div className='mr-16 ml-10'><Cook selectedRecipes={selectedRecipes} /></div>
       </div>
       <ToastContainer limit={1} />
     </>

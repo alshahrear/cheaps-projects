@@ -14,8 +14,8 @@ const Card = ({ card, handleAddRecipes }) => {
   } = card;
 
   return (
-    <div className="ml-16 mr-16 ">
-      <div className="card bg-base-100 w-96 shadow-lg border-2 pt-8">
+    <div className="ml-16 mr-16">
+      <div className="card bg-base-100 w-[350px] shadow-lg border-2 pt-8">
         <figure>
           <img
             className="w-72 h-48 rounded-2xl"
@@ -41,16 +41,16 @@ const Card = ({ card, handleAddRecipes }) => {
           <div className="flex items-center">
             <p className="flex items-center text-xl gap-2">
               <MdOutlineWatchLater />
-              <span>{preparing_time}</span> minutes
+              <span>{preparing_time} minutes</span> 
             </p>
             <p className="flex items-center text-xl gap-2">
               <AiOutlineFire />
-              <span>{calories}</span> calories
+              <span>{calories} calories</span> 
             </p>
           </div>
           <div className="card-actions mt-5">
             <button
-              onClick={() => handleAddRecipes(recipe_id)}
+              onClick={() => handleAddRecipes(recipe_id, card)} // রেসিপি যোগ করা হচ্ছে
               className="btn text-xl pl-6 pr-6 rounded-3xl bg-[#0BE58A]"
             >
               Want to Cook
