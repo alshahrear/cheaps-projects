@@ -1,8 +1,10 @@
-const Cook = () => {
+
+const Cook = ({ addRecipes }) => {
+    
     return (
         <div>
             <div className="border-2 border-gray-200 w-96 mr-16 ml-20 p-5 rounded-xl space-y-4">
-                <h2 className="text-center text-xl font-bold">Want to cook: <span> 01</span></h2>
+                <h2 className="text-center text-xl font-bold">Want to cook: <span>{addRecipes}</span></h2>
                 <hr />
                 <br />
                     <tr className="text-[#878787]">
