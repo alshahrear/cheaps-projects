@@ -50,7 +50,7 @@ const Card = ({ card, handleAddRecipes }) => {
           </div>
           <div className="card-actions mt-5">
             <button
-              onClick={() => handleAddRecipes(recipe_id, card)} // রেসিপি যোগ করা হচ্ছে
+              onClick={() => handleAddRecipes(recipe_id, card)}
               className="btn text-xl pl-6 pr-6 rounded-3xl bg-[#0BE58A]"
             >
               Want to Cook

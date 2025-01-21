@@ -39,6 +39,15 @@ const Cook = ({ selectedRecipes }) => {
                     </h2>
                     <br />
                     <div className="pl-10 pr-10"><hr /></div>
+                    <div>
+                        <thead className="text-[#878787]">
+                            <tr>
+                                <th className="px-6">Name</th>
+                                <th className="px-6">Time</th>
+                                <th className="px-6">Calories</th>
+                            </tr>
+                        </thead>
+                    </div>
                 </div>
                 <div className="flex justify-end gap-5 pt-5">
                     <p className="text-[#696666] font-semibold">
